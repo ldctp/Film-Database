@@ -14,8 +14,8 @@ CREATE TABLE info (
 CREATE TABLE rating (
     r_id INT NOT NULL,
     f_id INT NOT NULL,
-    my_rating DECIMAL(2 , 2 ) NOT NULL,
-    imdb_rating DECIMAL(2 , 2 ),
+    my_rating DECIMAL(2, 1) NOT NULL,
+    imdb_rating DECIMAL(2 , 1),
     rot_tom INT,
     rot_tom_aud INT,
     CONSTRAINT pk_r PRIMARY KEY (r_id),
